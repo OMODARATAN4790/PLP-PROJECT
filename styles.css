@@ -1,116 +1,80 @@
-/* General Reset */
-* {
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    font-family: 'Arial', sans-serif;
-    scroll-behavior: smooth;
-    --main-color: blue;
-}
-
-/* Header */
-header {
-    background: var(--main-color);
-    color: white;
-    padding: 1rem 0;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
+  }
+  
+  header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.nav-links {
+    background: #333;
+    color: white;
+    padding: 1rem;
+  }
+  
+  header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  nav ul {
     list-style: none;
     display: flex;
-    gap: 20px;
-}
-
-.nav-links a {
+    gap: 1rem;
+  }
+  
+  nav a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
-}
-
-/* Hero Section */
-#hero {
-    background: url('https://source.unsplash.com/1600x900/?music,studio') no-repeat center/cover;
-    height: 90vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  }
+  
+  #hero {
     text-align: center;
-    color: white;
-}
-
-.cta {
-    background: white;
-    color: var(--main-color);
-    padding: 10px 20px;
+    padding: 2rem;
+    background: #f4f4f4;
+  }
+  
+  .features-grid {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .feature {
+    background: #eaeaea;
+    padding: 1rem;
     border-radius: 5px;
-    text-decoration: none;
-    margin-top: 10px;
-    display: inline-block;
-}
-
-/* Section Styling */
-section {
-    padding: 50px 0;
-}
-
-h2 {
     text-align: center;
-    margin-bottom: 20px;
-}
-
-/* Courses */
-.course-list {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.course-item {
-    background: var(--main-color);
-    color: white;
-    padding: 20px;
-    border-radius: 8px;
-    width: 250px;
-    text-align: center;
-}
-
-/* Contact Form */
-form {
-    max-width: 500px;
-    margin: 0 auto;
+  }
+  
+  #pricing table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+  }
+  
+  #pricing table th,
+  #pricing table td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: left;
+  }
+  
+  #contact form {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-}
-
-/* Footer */
-footer {
+    gap: 1rem;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  footer {
     text-align: center;
-    background: var(--main-color);
+    padding: 1rem;
+    background: #333;
     color: white;
-    padding: 20px 0;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .nav-links {
-        flex-direction: column;
-        gap: 10px;
-    }
-}
+  }
+  

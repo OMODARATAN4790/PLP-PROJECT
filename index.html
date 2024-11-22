@@ -1,122 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DAO Music Academy</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollreveal/4.0.9/scrollreveal.min.js" defer></script>
-    <script src="script.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GAED HUB</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
-        <div class="container">
-            <h1 class="logo">🎼 DAO Music Academy</h1>
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#courses">Courses</a></li>
-                    <li><a href="#testimonials">Testimonials</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="theme-switcher">
-                <label for="theme">Theme:</label>
-                <select id="theme">
-                    <option value="blue">Blue</option>
-                    <option value="red">Red</option>
-                    <option value="black">Black</option>
-                </select>
-            </div>
-        </div>
-    </header>
+  <header>
+    <div class="logo">GAED HUB</div>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <!-- Hero Section -->
-    <section id="hero">
-        <div class="hero-content">
-            <h2>Discover Your Rhythm</h2>
-            <p>Join the best music academy and transform your passion into perfection.</p>
-            <a href="#courses" class="cta">Explore Courses</a>
-        </div>
-    </section>
+  <section id="hero">
+    <h1>Welcome to GAED HUB</h1>
+    <p>Providing unlimited power, internet, and comfort for students, freelancers, and innovators.</p>
+    <a href="#pricing" class="cta">View Plans</a>
+  </section>
 
-    <!-- About Section -->
-    <section id="about">
-        <div class="container">
-            <h2>About Us</h2>
-            <p>
-                DAO Music Academy is your gateway to mastering the art of music. We offer
-                professional training in instruments, vocals, and music production.
-                Our instructors are seasoned musicians passionate about teaching.
-            </p>
-        </div>
-    </section>
+  <section id="about">
+    <h2>About GAED HUB</h2>
+    <p>GAED HUB is a youth-driven workspace designed to provide essential resources like reliable power, high-speed internet, and comfortable spaces for success.</p>
+  </section>
 
-    <!-- Courses Section -->
-    <section id="courses">
-        <div class="container">
-            <h2>Our Courses</h2>
-            <div class="course-list">
-                <div class="course-item">
-                    <h3>🎸 Guitar Lessons</h3>
-                    <p>Learn to strum your way into the hearts of music lovers.</p>
-                </div>
-                <div class="course-item">
-                    <h3>🎹 Piano Classes</h3>
-                    <p>Master the keys with our world-class piano training.</p>
-                </div>
-                <div class="course-item">
-                    <h3>🥁 Drum Training</h3>
-                    <p>Keep the rhythm alive with our dynamic drum classes.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+  <section id="features">
+    <h2>Our Features</h2>
+    <div class="features-grid">
+      <div class="feature">
+        <h3>Reliable Power</h3>
+        <p>24/7 solar-powered energy.</p>
+      </div>
+      <div class="feature">
+        <h3>High-Speed Internet</h3>
+        <p>Powered by Starlink for uninterrupted connectivity.</p>
+      </div>
+      <div class="feature">
+        <h3>Comfortable Spaces</h3>
+        <p>Fully furnished for productivity and collaboration.</p>
+      </div>
+    </div>
+  </section>
 
-    <!-- Testimonials Section -->
-    <section id="testimonials">
-        <div class="container">
-            <h2>What Our Students Say</h2>
-            <div class="testimonials">
-                <blockquote>
-                    "The instructors at DAO Music Academy helped me find my true voice!"
-                    <cite>– Sarah K.</cite>
-                </blockquote>
-                <blockquote>
-                    "Joining DAO Music Academy was the best decision for my musical journey."
-                    <cite>– James R.</cite>
-                </blockquote>
-                <blockquote>
-                    "Amazing courses and fantastic instructors. Highly recommended!"
-                    <cite>– Amanda T.</cite>
-                </blockquote>
-            </div>
-        </div>
-    </section>
+  <section id="pricing">
+    <h2>Membership Plans</h2>
+    <table>
+      <tr>
+        <th>Plan</th>
+        <th>Price</th>
+        <th>Features</th>
+      </tr>
+      <tr>
+        <td>Daily</td>
+        <td>$0.58</td>
+        <td>Access to all facilities for a day</td>
+      </tr>
+      <tr>
+        <td>Monthly</td>
+        <td>$12</td>
+        <td>Unlimited access to all facilities</td>
+      </tr>
+    </table>
+  </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <h2>Contact Us</h2>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" placeholder="Your Name" required>
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions? Reach out to us!</p>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" placeholder="Your Email" required>
+  <footer>
+    <p>&copy; 2024 GAED HUB. All rights reserved.</p>
+  </footer>
 
-                <label for="message">Message:</label>
-                <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
-
-                <button type="submit">Send Message</button>
-            </form>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2024 DAO Music Academy. Crafted with ❤️ for music lovers.</p>
-    </footer>
+  <script src="script.js"></script>
 </body>
 </html>
